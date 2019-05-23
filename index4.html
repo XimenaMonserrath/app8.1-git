@@ -13,9 +13,9 @@
 
 <button onClick="cargarmap()">Cargar mapa</button>
 <script type="text/javascript">
-var x=document-getElementById("demo");
+var x=document.getElementById("demo");
 function cargarmap(){
-	navigator.geolocation.getCurrentPosition(showPosition,showError);
+	navigator .geolocation.getCurrentPosition(showPosition,showError);
 	function showPosition(position)
 {
 	lat=position.coords.latitude;
