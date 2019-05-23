@@ -21,9 +21,9 @@ function cargarmap(){
 	lat=position.coords.latitude;
 	lon=position.coords.longitude;
 	latlon=new google.maps.LatLng(lat, lon)
-	malpholder=document.getElementById('mapholder')
-	malpholder.style.height='500px';
-	malpholder.style.width='750px';
+	mapholder=document.getElementById('mapholder')
+	mapholder.style.height='500px';
+	mapholder.style.width='750px';
 	var myOptions={
 	center:latlon,zoom:17,
 	mapTypeld:google.maps.MapTypeld.ROADMAP,
